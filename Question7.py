@@ -1,15 +1,8 @@
-data= input()
-print(data)
-print(type(data))
-#output
-#10
-#<class 'str'>
-#input always accepts string it is by default
+a=5
+print(type(a))
+a=5.5
+print(type(a))
+a="python"
+print(type(a))
 
-data2= int(input())
-print(data2)
-print(type(data2))
-#output
-#10
-#<class 'int'>
-#by adding datatype or by typecasting int before input
+#as from this we can see that python is dynamically typed it can change its data type according to its need as it is loosley coupled 

@@ -1,5 +1,4 @@
-print("enter name and age")
-name=input()
-age=int(input())
-
-print("hello",name,"you will turn",age+1,"next year")
+x=10
+x="ten"
+print(x)
+#yes it allowed only python because it can change its datatype as per requirement as it is dynamically type language and the xwith variable is losely coupled so it can easily change its datatype

@@ -1,8 +1,7 @@
-print("enter two numbers")
-no1=int(input())
-no2=int(input())
+x=eval(input("enter a value"))
 
-print("addition of two number is",no1+no2)
-print("subtraction of two number is",no1-no2)
-print("multiplication of two number is",no1*no2)
-print("division of two number is",no1/no2)
+print(type(x))
+print(id(x))
+
+from sys import getsizeof
+print(getsizeof(x))

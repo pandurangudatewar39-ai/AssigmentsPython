@@ -1,4 +1,2 @@
-x=input("enter number:")
-print(type(x))          #str
-
-#because input takes string by default unless we typecast a datatype
+x=100
+#as python is dynamically typed language there is no need to declare its datatype it identifies the datatype during runtime whereas in c and java we need declare the datatype of variable before assigning any xto the variable
